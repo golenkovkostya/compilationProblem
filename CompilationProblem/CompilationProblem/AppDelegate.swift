@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    @available(iOS 13, *)
     func configureAmplify() {
         do {
             Amplify.Logging.logLevel = .verbose
