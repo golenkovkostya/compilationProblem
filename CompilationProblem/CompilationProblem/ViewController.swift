@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AWSPredictionsPlugin
 
 class ViewController: UIViewController {
 
